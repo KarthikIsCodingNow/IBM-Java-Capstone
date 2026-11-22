@@ -1,4 +1,3 @@
-
 # User Stories - Smart Clinic Management System
 
 ## Project Overview

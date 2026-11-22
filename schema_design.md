@@ -249,4 +249,3 @@ Stores clinical prescription records associated with appointments.
 - `Patient.java` $\to$ `@Entity`, mapped to `patient` table.
 - `Appointment.java` $\to$ `@Entity`, mapped to `appointment` table with `@ManyToOne` associations to `Doctor` and `Patient`.
 - `Prescription.java` $\to$ `@Document(collection = "prescriptions")`, managed by Spring Data MongoDB `MongoRepository`.
-
